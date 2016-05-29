@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "elm-webpack-loader": "^3.0.3",
+    "express": "^4.13.4",
+    "server-sent-events": "^1.0.0",
+    "string-replace-webpack-plugin": "0.0.3",
+    "webpack": "^1.13.1",
+    "webpack-dev-middleware": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node ./server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
